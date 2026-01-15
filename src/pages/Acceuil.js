@@ -18,19 +18,12 @@ function Acceuil() {
 
 
 
+            <div className="Acceuil">
+            <h3>my<img src={image3} alt="icon 2"/></h3>
+            <h1>PORTFOLIO <img src={image2} alt="icon 1"/></h1>
+            <h4>made by sara</h4>
 
 
-
-
-
-        <div className="Acceuil">
-            <h3>my</h3>
-            <h1>PORTFOLIO</h1>
-            <h3>made by sara</h3>
-
-
-            <img src={image2} alt="icon 1"/>
-            <img src={image3} alt="icon 2"/>
 
 
 
