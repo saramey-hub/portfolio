@@ -1,37 +1,80 @@
 body {
     background-color: #e0dced;
-
+    margin: 0;
 }
- h1, h3, h4 {
-     color : white;
-     font-family: 'Fredoka One', cursive;
 
- }
-
- h1 {
-     font-size: 96px ;
-     padding-left: 58px;
-     margin-bottom: 0px;
-     margin-top: 0px;
-     display: flex;
-     align-items: center;
-
- }
-
- h3 {
-     font-size : 48px;
-     padding-left : 58px;
-     margin-top: 120px;
-     margin-bottom: 0px;
-
- }
-
- h4 {
-     font-size : 24px;
-     padding-left: 450px;
-     margin-bottom: 0px;
-     margin-top: 0px;
- }
+h1, h3, h4 {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+}
 
 
+h1 {
+    font-size: 96px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+h3 {
+    font-size: 48px;
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+
+h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 30px;
+}
+
+
+.buttons button {
+    border-radius: 19px;
+    background-color: #AC9480;
+    color: #E9E9E9;
+    border: none;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buttons button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(57, 46, 46, 0.1);
+}
+.portfolio-icon {
+    width: 120px;
+    margin-left: 10px;
+    animation: floatIcon 2.5s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
