@@ -1,5 +1,6 @@
 import "../styles/Acceuil.css"
 import image2 from "../assests/image 2.svg"
+import {Link} from "react-router-dom";
 
 
 function Acceuil() {
@@ -11,10 +12,10 @@ function Acceuil() {
 
             <div className="buttons">
 
-                <button>about</button>
-                <button>projects</button>
-                <button>resume</button>
-                <button>contact</button>
+              <Link to = "/Storyline.js"> <button>about</button> </Link>
+                <Link to = "/Projects.js"> <button>projects</button> </Link>
+                <Link to = "/Resume.js"> <button>resume</button> </Link>
+                <Link to = "/Contact.js"> <button>contact</button> </Link>
             </div>
 
 

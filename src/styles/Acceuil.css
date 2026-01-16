@@ -60,6 +60,8 @@ h4 {
 .buttons button:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(57, 46, 46, 0.1);
+    background-color: #E9E9E9;
+    color: #AC9480;
 }
 .portfolio-icon {
     width: 120px;
