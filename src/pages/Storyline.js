@@ -1,6 +1,7 @@
 import "../styles/Storyline.css"
 import "../assests/image 2.svg"
 import {Link} from "react-router-dom";
+import image2 from "../assests/image 2.svg";
 
 function Storyline() {
 
@@ -21,6 +22,49 @@ function Storyline() {
                    <Link to="/contact"><button>contact</button></Link>
 
                </div>
+
+
+
+               <div className="About">
+
+                   <h1>ABOUT</h1>
+                   <h4>me
+                       <img src={image2} alt="icon 1" className="portfolio-icon" />
+                   </h4>
+
+                   <p>
+huikolksfrgttttttttttffvdgj
+
+                   </p>
+
+               </div>
+
+
+
+ < div className ="skills">
+
+     <h2>
+         SKILLS & TECHNOLOGIES
+     </h2>
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
        </div>
 
