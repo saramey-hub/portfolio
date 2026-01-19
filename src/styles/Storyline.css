@@ -1,0 +1,38 @@
+.butons button {
+    border-radius: 19px;
+    background-color: #AC9480;
+    color: #E9E9E9;
+    border: none;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.butons {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 30px;
+}
+
+
+.butons button.button-about {
+    background-color: #E9E9E9;
+    color: #AC9480;
+}
+
+.butons button.button-about:hover {
+    background-color: #AC9480;
+    color: #E9E9E9;
+}
+
+.butons button:hover {
+    background-color: #E9E9E9;
+    color: #AC9480;
+}
+

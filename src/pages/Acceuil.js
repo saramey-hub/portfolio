@@ -12,10 +12,11 @@ function Acceuil() {
 
             <div className="buttons">
 
-              <Link to = "/Storyline.js"> <button>about</button> </Link>
-                <Link to = "/Projects.js"> <button>projects</button> </Link>
-                <Link to = "/Resume.js"> <button>resume</button> </Link>
-                <Link to = "/Contact.js"> <button>contact</button> </Link>
+                <Link to="/about"><button>about</button></Link>
+                <Link to="/projects"><button>projects</button></Link>
+                <Link to="/resume"><button>resume</button></Link>
+                <Link to="/contact"><button>contact</button></Link>
+
             </div>
 
 
