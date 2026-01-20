@@ -73,3 +73,30 @@
     margin-left: 930px;
     margin-top: -300px;
 }
+
+.tech-section {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-left: 780px;
+    margin-top: 70px;
+    gap: 60px;
+
+}
+
+.tech-card {
+    background-color: #AC9480;
+    border-radius: 25px;
+    padding: 20px;
+    height: 120px;
+    width: 200px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.tech-card h3 {
+   font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: -10px;
+    margin-left: -100px;
+}
+
+

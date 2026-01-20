@@ -39,8 +39,6 @@ huikolksfrgttttttttttffvdgj
 
                </div>
 
-
-
  < div className ="skills">
 
      <h2>
@@ -54,6 +52,49 @@ huikolksfrgttttttttttffvdgj
 
  </div>
 
+               <div className="tech-section">
+
+                   <div className="tech-card">
+                       <h3>front-end</h3>
+                       <div className="tech-logos">
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                       </div>
+                   </div>
+
+                   <div className="tech-card">
+                       <h3>back-end</h3>
+                       <div className="tech-logos">
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                       </div>
+                   </div>
+
+                   <div className="tech-card">
+                       <h3>experience</h3>
+                       <div className="tech-logos">
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                       </div>
+                   </div>
+
+                   <div className="tech-card">
+                       <h3>experience</h3>
+                       <div className="tech-logos">
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                           <div className="logo-placeholder"></div>
+                       </div>
+                   </div>
+
+               </div>
 
 
 
@@ -66,7 +107,8 @@ huikolksfrgttttttttttffvdgj
 
 
 
-       </div>
+
+           </div>
 
 
         )
