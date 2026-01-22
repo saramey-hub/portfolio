@@ -4,7 +4,21 @@ import "../assests/image 2.svg"
 
 function Resume() {
     return (
-       <h1>Resume</h1>
+        <div>
+            <div className="button">
+
+                <div className="butons">
+
+                    <Link to="/about">
+                        <button>about</button>
+                    </Link>
+                    <Link to="/projects"><button>projects</button></Link>
+                    <Link to="/resume"><button className="button-about">resume</button></Link>
+                    <Link to="/contact"><button>contact</button></Link>
+
+                </div>
+            </div>
+        </div>
     );
 }
 
