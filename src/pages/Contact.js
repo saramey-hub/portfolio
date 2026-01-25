@@ -1,8 +1,12 @@
 import {Link} from "react-router-dom";
+import "../styles/Contact.css"
+import "../assests/image 2.svg"
+import image2 from "../assests/image 2.svg";
+
 
 function Contact() {
     return (
-        <div>
+        <>
             <div className="button">
 
                 <div className="butons">
@@ -16,7 +20,26 @@ function Contact() {
 
                 </div>
             </div>
+
+
+        <div className="contact">
+
+
+<h1>CONTACT
+    <img src={image2} alt="icon 1" className="portfolio-icon" />
+</h1>
+
+
+
+
+
         </div>
+
+
+
+        </>
+
+
     );
 }
 
