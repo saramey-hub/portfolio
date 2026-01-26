@@ -5,6 +5,7 @@ import "../assests/image 4.svg"
 import image4 from "../assests/image 4.svg"
 import image2 from "../assests/image 2.svg";
 
+
 function Resume() {
     return (
         <>
@@ -24,11 +25,17 @@ function Resume() {
 
             <div className="text">
 
-<p>you can download my resume by cliking here !
-<img src={image4} alt="icon 2" className="portfoli-icon" />
+                <a
+                    href="/cv MEHDAOUI Sara .png"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    you can download my resume by clicking here !
+                    <img src={image4} alt="icon 2" className="portfoli-icon" />
+                </a>
 
 
-</p>
+
 
             </div>
                 <div className="Resume">
