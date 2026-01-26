@@ -3,10 +3,30 @@ margin-top: 80px;
 }
 
 .icon {
+
         width: 80px;
     height: 80px;
     margin-left: 500px;
     animation: floatIcon 2.5s ease-in-out infinite;
+
+}
+
+.icon20 {
+    width: 50px;
+    margin-left: 510px;
+    animation: floatIcon 2.5s ease-in-out infinite;
+
+
+}
+
+.contact p{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
 }
 
 @keyframes floatIcon {
@@ -21,8 +41,7 @@ margin-top: 80px;
     }
 }
 
-.icon20 {
-    width: 60px;
-    margin-left: 510px;
-    animation: floatIcon 2.5s ease-in-out infinite;
+.contact a {
+    color: white;
+    text-decoration: none;
 }

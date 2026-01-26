@@ -33,20 +33,31 @@ function Contact() {
 </h1>
 
             <p>
-       <img src={phone} alt="icon 1" className="icon" />
-
-            </p>
+       <img src={phone} alt="icon 1" className="icon" />+33 06 29 22 89 62</p>
 
 <p>
-    <img src={mail} alt="icon 1" className="icon" />
-</p>
+    <img src={mail} alt="icon 1" className="icon" />smeehdaoui@gmail.com</p>
 
             <p>
                 <img src={link} alt="icon 1" className="icon" />
+                <a
+                    href= "https://www.linkedin.com/in/sara-mehdaoui-ba58122b5/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    sara's linkedin (click !)
+                </a>
             </p>
 
             <p>
                 <img src={git} alt="icon 1" className="icon20" />
+                <a
+                    href= "https://github.com/saramey-hub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    saramey-hub
+                </a>
             </p>
 
         </div>
