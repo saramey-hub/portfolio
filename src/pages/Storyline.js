@@ -33,8 +33,10 @@ function Storyline() {
                    </h4>
 
                    <p>
-huikolksfrgttttttttttffvdgj
-
+                       Bienvenue ! Je suis Sara Mehdaoui, étudiante en deuxième année de Bachelor <br/> Développeur d’Applications Informatiques au CESI.<br/>
+                       Passionnée par le développement web et mobile, je crée des projets interactifs.<br/>
+                       Je suis actuellement à la recherche d’une alternance <br/> pour mettre mes compétences en pratique et relever de nouveaux défis techniques.<br/>
+                       N’hésitez pas à parcourir ce portfolio pour en savoir plus et à me contacter !
                    </p>
 
                </div>
