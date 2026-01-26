@@ -1,7 +1,10 @@
 import {Link} from "react-router-dom";
 import "../styles/Contact.css"
-import "../assests/image 2.svg"
 import image2 from "../assests/image 2.svg";
+import phone from "../assests/phone.png";
+import mail from "../assests/mail.png";
+import git from "../assests/git.png";
+import link from "../assests/link.png";
 
 
 function Contact() {
@@ -29,9 +32,22 @@ function Contact() {
     <img src={image2} alt="icon 1" className="portfolio-icon" />
 </h1>
 
+            <p>
+       <img src={phone} alt="icon 1" className="icon" />
 
+            </p>
 
+<p>
+    <img src={mail} alt="icon 1" className="icon" />
+</p>
 
+            <p>
+                <img src={link} alt="icon 1" className="icon" />
+            </p>
+
+            <p>
+                <img src={git} alt="icon 1" className="icon20" />
+            </p>
 
         </div>
 
