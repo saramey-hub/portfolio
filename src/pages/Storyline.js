@@ -2,6 +2,16 @@ import "../styles/Storyline.css"
 import "../assests/image 2.svg"
 import {Link} from "react-router-dom";
 import image2 from "../assests/image 2.svg";
+import c from "../assests/c.png"
+import csharp from "../assests/csharp.png"
+import css from "../assests/css.png"
+import flask from "../assests/flask.png"
+import flutter from "../assests/flutter.png"
+import html from "../assests/html.png"
+import js from "../assests/js.png"
+import php from "../assests/php.png"
+import python from "../assests/python.png"
+import react from "../assests/react.png"
 
 function Storyline() {
 
