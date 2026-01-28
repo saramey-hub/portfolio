@@ -87,8 +87,8 @@ function Storyline() {
                        </div>
                    </div>
 
-                   <div className="tech-card">
-                       <h3>experience</h3>
+                   <div className="tech-card3">
+                       <h3>divers</h3>
                        <div className="tech-logos">
                            <div className="logo-placeholder"></div>
                            <div className="logo-placeholder"></div>
