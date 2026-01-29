@@ -98,7 +98,7 @@ function Storyline() {
                    </div>
 
                    <div className="tech-card">
-                       <h3>experience</h3>
+                       <h3>other skills</h3>
                        <div className="tech-logos">
                            <div className="logo-placeholder"></div>
                            <div className="logo-placeholder"></div>
