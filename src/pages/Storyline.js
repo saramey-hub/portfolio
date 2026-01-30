@@ -12,6 +12,7 @@ import js from "../assests/js.png"
 import php from "../assests/php.png"
 import python from "../assests/python.png"
 import react from "../assests/react.png"
+import git from "../assests/git.png"
 
 function Storyline() {
 
@@ -69,31 +70,30 @@ function Storyline() {
                    <div className="tech-card">
                        <h3>front-end</h3>
                        <div className="tech-logos">
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
+                           <img src={html} alt={"HTML"}/>
+                           <img src={css} alt={"CSS"}/>
+                           <img src={js } alt={"Javascript"}/>
                        </div>
                    </div>
 
                    <div className="tech-card">
                        <h3>back-end</h3>
                        <div className="tech-logos">
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
+                        <img src={csharp} alt={"Csharp"}/>
+                        <img src={c} alt={c}/>
+                        <img src={python} alt={"Python"}/>
+                        <img src={php} alt={"PHP"}/>
+
                        </div>
                    </div>
 
                    <div className="tech-card3">
                        <h3>divers</h3>
-                       <div className="tech-logos">
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
+                       <div className="tech-logos1">
+                           <img src={react} alt={"React"}/>
+                           <img src={flask} alt={"Flask"}/>
+                           <img src={flutter} alt={"Flutter"}/>
+                           <img src={git} alt={"Git"}/>
                        </div>
                    </div>
 

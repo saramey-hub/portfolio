@@ -114,3 +114,15 @@
     margin-top: -10px;
     margin-left: -140px;
 }
+.tech-logos img {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+.tech-logos1 img {
+    width: 80px;
+    height: 55px;
+    object-fit: contain;
+}
