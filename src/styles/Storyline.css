@@ -126,3 +126,9 @@
     height: 55px;
     object-fit: contain;
 }
+.tech-text p {
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

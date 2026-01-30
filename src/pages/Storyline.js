@@ -46,7 +46,7 @@ function Storyline() {
                    <p>
                        Bienvenue ! Je suis Sara Mehdaoui, étudiante en deuxième année de Bachelor <br/> Développeur d’Applications Informatiques au CESI.<br/>
                        Passionnée par le développement web et mobile, je crée des projets interactifs.<br/>
-                       Je suis actuellement à la recherche d’une alternance <br/> pour mettre mes compétences en pratique et relever de nouveaux défis techniques.<br/>
+                       Je suis actuellement à la recherche d’une alternance d'un an à partir d'octobre 2026,<br/> pour mettre mes compétences en pratique et relever de nouveaux défis techniques.<br/>
                        N’hésitez pas à parcourir ce portfolio pour en savoir plus et à me contacter !
                    </p>
 
@@ -99,10 +99,10 @@ function Storyline() {
 
                    <div className="tech-card">
                        <h3>other skills</h3>
-                       <div className="tech-logos">
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
-                           <div className="logo-placeholder"></div>
+                       <div className="tech-text">
+                           <p>- autonomous</p>
+                           <p>- organisation</p>
+                           <p>- communication</p>
                        </div>
                    </div>
 
